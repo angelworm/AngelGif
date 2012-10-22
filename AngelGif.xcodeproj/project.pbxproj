@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9897AFCF1635401600218B5C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897AFCE1635401600218B5C /* QTKit.framework */; };
+		9897AFD21635401A00218B5C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897AFD11635401A00218B5C /* ImageIO.framework */; };
 		98D4B8CF1632CB8A004EED49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D4B8CE1632CB8A004EED49 /* Cocoa.framework */; };
 		98D4B8D91632CB8A004EED49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98D4B8D71632CB8A004EED49 /* InfoPlist.strings */; };
 		98D4B8DB1632CB8A004EED49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98D4B8DA1632CB8A004EED49 /* main.m */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9897AFCE1635401600218B5C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		9897AFD11635401A00218B5C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		98D4B8CA1632CB8A004EED49 /* AngelGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98D4B8CE1632CB8A004EED49 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		98D4B8D11632CB8A004EED49 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9897AFD21635401A00218B5C /* ImageIO.framework in Frameworks */,
+				9897AFCF1635401600218B5C /* QTKit.framework in Frameworks */,
 				98D4B8CF1632CB8A004EED49 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,6 +81,8 @@
 		98D4B8BF1632CB8A004EED49 = {
 			isa = PBXGroup;
 			children = (
+				9897AFD11635401A00218B5C /* ImageIO.framework */,
+				9897AFCE1635401600218B5C /* QTKit.framework */,
 				98D4B8D41632CB8A004EED49 /* AngelGif */,
 				98D4B8F11632CB8B004EED49 /* AngelGifTests */,
 				98D4B8CD1632CB8A004EED49 /* Frameworks */,
@@ -447,6 +455,7 @@
 				98D4B8FE1632CB8B004EED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		98D4B8FF1632CB8B004EED49 /* Build configuration list for PBXNativeTarget "AngelGifTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +464,7 @@
 				98D4B9011632CB8B004EED49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
