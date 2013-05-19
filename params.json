@@ -1,0 +1,1 @@
+{"name":"Angelgif","tagline":"動画の共通規格とはGifアニメの事だったのか","body":"### これは何だ\r\n\r\n.movファイルを与える事で、指定された範囲を切り出し、gifアニメを出力する何か。\r\nffmpegとかに該当機能無いのかなぁと思いながら作った。\r\n\r\n### 使い方\r\n\r\n1. 起動する\r\n2. .movファイルを食わせる\r\n3. 頑張って範囲を指定する\r\n4. 切り出す\r\n5. どっかに出力される\r\n\r\n### 作者\r\n\r\n@Angelworm_","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
