@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9873C56E174903E80015F3E8 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 9873C56D174903E80015F3E8 /* README */; };
 		9897AFCF1635401600218B5C /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897AFCE1635401600218B5C /* QTKit.framework */; };
 		9897AFD21635401A00218B5C /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9897AFD11635401A00218B5C /* ImageIO.framework */; };
 		98D4B8CF1632CB8A004EED49 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98D4B8CE1632CB8A004EED49 /* Cocoa.framework */; };
@@ -32,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9873C56D174903E80015F3E8 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		9897AFCE1635401600218B5C /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		9897AFD11635401A00218B5C /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		98D4B8CA1632CB8A004EED49 /* AngelGif.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelGif.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -81,6 +83,7 @@
 		98D4B8BF1632CB8A004EED49 = {
 			isa = PBXGroup;
 			children = (
+				9873C56D174903E80015F3E8 /* README */,
 				9897AFD11635401A00218B5C /* ImageIO.framework */,
 				9897AFCE1635401600218B5C /* QTKit.framework */,
 				98D4B8D41632CB8A004EED49 /* AngelGif */,
@@ -236,6 +239,7 @@
 				98D4B8D91632CB8A004EED49 /* InfoPlist.strings in Resources */,
 				98D4B8DF1632CB8A004EED49 /* Credits.rtf in Resources */,
 				98D4B8E51632CB8B004EED49 /* MainMenu.xib in Resources */,
+				9873C56E174903E80015F3E8 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +393,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngelGif/AngelGif-Prefix.pch";
 				INFOPLIST_FILE = "AngelGif/AngelGif-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -401,6 +406,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AngelGif/AngelGif-Prefix.pch";
 				INFOPLIST_FILE = "AngelGif/AngelGif-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
